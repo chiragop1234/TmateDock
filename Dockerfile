@@ -26,4 +26,4 @@ USER tmateuser
 EXPOSE 2222
 
 # Set the entry point to start the tmate server
-ENTRYPOINT ["tmate", "-S", "/tmp/tmate.sock", "-k", "/etc/tmate-keys/tmate-authorized-keys", "--generate-keys", "--server", "/usr/bin/tmate-server"]
+ENTRYPOINT ["tmate","-F"]
